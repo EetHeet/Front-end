@@ -1,0 +1,28 @@
+table {
+  margin: auto;
+  text-align: center;
+  width: 40%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.input-container {
+  justify-content: center;
+  display: flex;
+}
+
+input[type="date"] {
+  font-size: 13.3333px;
+  font-family: Arial;
+  color: grey;
+}
+
+table th,
+table td {
+  border: 1px solid black;
+  border-top: 0;
+  padding-top: 5px;
+  border-left: 0;
+  border-right: 0;
+  margin: 0;
+}
